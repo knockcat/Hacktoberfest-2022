@@ -1,0 +1,12 @@
+{
+    "manifest_version":3,
+    "name":"Dashing Dashboard",
+    "version":"1.0.0",
+    "description":"Project for practicing async JS",
+    "action":{
+        "default_icon":"dashboard.png"
+    },
+    "chrome_url_overrides":{
+        "newtab":"index.html"
+    }
+}
