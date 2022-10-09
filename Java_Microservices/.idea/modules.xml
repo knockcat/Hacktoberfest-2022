@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_Microservices.iml" filepath="$PROJECT_DIR$/.idea/Java_Microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LicenseServices/LicenseServices.iml" filepath="$PROJECT_DIR$/LicenseServices/LicenseServices.iml" />
+    </modules>
+  </component>
+</project>
