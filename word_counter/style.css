@@ -1,0 +1,157 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&family=Roboto+Mono:ital,wght@0,300;0,700;1,500&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto Mono";
+  background-color: rebeccapurple;
+}
+.header-container {
+  background-color: rgb(164, 224, 189);
+  color: rgb(77, 3, 3);
+  height: 15%;
+  display: flex;
+  gap: 3rem;
+  /* position: fixed;
+  top: 0; */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container a {
+  text-decoration: none;
+  color: rgb(77, 3, 3);
+  font-weight: bolder;
+}
+
+.header-container a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+img {
+  height: 7rem;
+  width: 7rem;
+  margin-right: 7rem;
+}
+.body-container {
+  margin-top: 1.3rem;
+  height: 75%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+textarea {
+  width: 60%;
+  height: 60vmin;
+  resize: none;
+  padding: 15px;
+  font-size: large;
+  border-radius: 6px;
+  background-color: rgb(231, 207, 201);
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.btn-count-container {
+  margin-left: 1.2rem;
+}
+
+button {
+  padding: 15px;
+  border-radius: 6px;
+  width: max-content;
+  background-color: yellowgreen;
+  color: white;
+  font-weight: bolder;
+}
+
+button:hover {
+  outline: none;
+  background-color: rgb(134, 187, 28);
+}
+
+.count-container {
+  margin-top: 1.2rem;
+}
+.count-container p {
+  color: white;
+  font-size: large;
+  font-weight: 800;
+}
+
+span {
+  margin-left: 1.2rem;
+}
+.footer-container {
+  height: 12%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(164, 224, 189);
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+@media only screen and (max-width: 600px) {
+  img {
+    margin-right: 6px;
+    height: 6rem;
+    width: 6rem;
+  }
+  .header-container h1 {
+    font-size: large;
+    text-align: center;
+    padding-right: 6px;
+  }
+
+  .body-container {
+    flex-direction: column;
+  }
+
+  textarea {
+    width: 90%;
+    height: 55vmax;
+    background-color: rgb(231, 207, 201);
+    color: black;
+  }
+
+  .btn-count-container {
+    margin-top: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .count-container {
+    margin-left: 1.2rem;
+  }
+  button {
+    margin-top: 1.3rem;
+  }
+
+  .footer-container {
+    font-size: xx-small;
+    text-align: center;
+  }
+}
