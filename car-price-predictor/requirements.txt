@@ -1,0 +1,5 @@
+numpy==1.18.5
+jsonify==0.5
+requests==2.23.0
+Flask==1.1.2
+scikit_learn==0.24.0
